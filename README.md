@@ -49,6 +49,14 @@ Then run
 
 ### Tmux
 
+#### Using Tmux Plugin Manager
+
+1. Use [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm).
+2. Add `set -g @plugin 'jooize/vim-tmux-navigator'` to your `~/.tmux.conf`.
+3. Hit `^B I` inside Tmux to have TPM install it.
+
+#### Manually
+
 Add the following to your `tmux.conf` file to configure the tmux side of
 this customization.
 
